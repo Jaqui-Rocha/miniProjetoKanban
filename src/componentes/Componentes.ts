@@ -32,9 +32,19 @@ position: absolute;
 left: 35%;
 bottom: 13rem;
 `
-export const Nav = styled.nav`
-background-color: blue;
-width: 600px;
+export const Nav = styled.div`
+background-color: #3A72F8;
+width: 100vw;
+height:10vh ;
+//position: fixed;
+margin-bottom: 20px;
+margin-top:-68px;
+font-family: Poppins;
+font-weight: 700;
+font-size: 32px;
+color:white;
+padding-left: 8px;
+
 
 `
 export const Column= styled.div`
