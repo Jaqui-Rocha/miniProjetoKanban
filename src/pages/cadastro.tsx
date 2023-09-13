@@ -1,6 +1,6 @@
 import { FundoAzul,Titulo1,Titulo2 } from "../componentes/Componentes";
 import  { useState} from 'react'
-import { EnvioCadastro } from "../servicos/envioCadastro";
+import { EnvioCadastro } from "../services/envioCadastro";
 import {useNavigate} from 'react-router-dom';
 function Cadastro(){
     const [name, setName]= useState("")

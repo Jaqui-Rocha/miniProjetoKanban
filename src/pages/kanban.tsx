@@ -1,4 +1,4 @@
-import { Nav } from "../componentes/Componentes";
+
 import { Row, Coluna } from "../componentes/coluna";
 import HeaderNav from "../componentes/nav";
 const Kanban = () : JSX.Element => {
