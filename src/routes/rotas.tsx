@@ -3,6 +3,7 @@ import Home from '../pages'
 import Cadastro from '../pages/cadastro';
 import Kanban from '../pages/kanban'
 
+
 export const Rotas = () => {
   
   
@@ -11,7 +12,7 @@ export const Rotas = () => {
         <Routes>
           <Route element={<Home/>} path="/"/>
           <Route element={<Cadastro/>} path="/cadastro"/>
-          <Route element={<Kanban/>} path="/kanban"/>
+          <Route element={<Kanban/>} path="/kanban" />
         </Routes>
         
       </BrowserRouter>

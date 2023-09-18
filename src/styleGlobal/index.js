@@ -21,10 +21,12 @@ input{
    display:flex;
    width:80%;
    height: 2.5rem;
-   margin-left:2.8rem;
+   //margin-left:2.8rem;
    margin-bottom: 2.5rem;
    font-size: 24px;
    border: none;
+   color: black;
+   padding-left: 1rem;
 }
 label{
     color:white;

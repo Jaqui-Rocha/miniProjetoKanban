@@ -1,4 +1,4 @@
-import { FundoAzul,Titulo1,Fonte24 } from "../componentes/Componentes";
+import { FundoAzul,Titulo1,Fonte24} from "../componentes/Componentes";
 import {useState} from 'react'
 import { login } from "../services/Login";
 import { TokenContext } from "../Context/TokenContext";

@@ -7,6 +7,9 @@ height: 761px;
 border-radius: 20px;
 position:relative;
 left:100%;
+> input{
+    color:black;
+}
 `
 
 export const Titulo1 = styled.h1`
@@ -63,4 +66,7 @@ export const Green= styled.div`
 background-color: green;
 display: flex;
 flex-direction: column;
+`
+export const Input= styled.input`
+color:black;
 `
